@@ -1,0 +1,46 @@
+.navbar
+{
+    .navContainer
+    {
+        width: 95%;
+        overflow: hidden;
+        .navTop
+        {
+            background-color: black;
+            width: 100%;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-right: 30px;
+        }
+        .navBottom
+        {
+            width: 100%;
+            color: black;
+            display: flex;
+            height: 70px;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-right: 89px;
+
+            .navLinks
+            {
+                text-transform: uppercase;
+                display: flex;
+                gap: 8px;
+            }
+            .navButtons
+            {
+                .btn 
+                {
+                    background-color: rgb(5, 83, 57);
+                    color: white;
+                    border-radius: 25px;
+                    padding: 6px 15px;
+                }
+            }
+        }
+    }
+}
