@@ -1,13 +1,20 @@
 import React from 'react';
 import './navbar.scss'
+import { Call, FacebookOutlined, Twitter, Pinterest, Search } from '@mui/icons-material';
 
 function Navbar(props) {
     return (
         <div className='navbar'>
             <div className="navContainer">
                 <div className="navTop">
-                    <div className="contacts">+254 348 447 78</div>
-                    <div className="social">Facebook</div>
+                    
+                    
+                    <div className="contacts"><Call /> +254 348 447 78</div>
+                    <div className="social">
+                        <FacebookOutlined/>
+                        <Twitter/>
+                        <Pinterest/>
+                    </div>
                 </div>
                 <div className="navBottom">
                     <div className="logo">Lpogo</div>
@@ -19,6 +26,8 @@ function Navbar(props) {
                     </div>
                     <div className="navButtons">
                         <div className="btn">Puchase</div>
+                        <Search className='search_icon'/>
+                        
                         
 
                     </div>

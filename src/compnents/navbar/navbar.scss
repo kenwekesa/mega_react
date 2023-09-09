@@ -6,13 +6,14 @@
         overflow: hidden;
         .navTop
         {
-            background-color: black;
+            background-color: rgb(25, 23, 26);
             width: 100%;
             color: white;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            padding-right: 30px;
+            padding:20px 30px;
+            padding-right: 2px;
         }
         .navBottom
         {
@@ -33,12 +34,24 @@
             }
             .navButtons
             {
+                display: flex;
+                gap: 5px;
+                align-items: center;
                 .btn 
                 {
-                    background-color: rgb(5, 83, 57);
-                    color: white;
+                    background: linear-gradient(to right, #07b061, #45b0ad,#2ea965);
+
+                    color: rgb(247, 241, 241);
                     border-radius: 25px;
                     padding: 6px 15px;
+                    text-transform: uppercase;
+                    font-size: 14px;
+
+                   
+                }
+                .search_icon 
+                {
+                    color: #07b061;
                 }
             }
         }
